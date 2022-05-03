@@ -1,0 +1,18 @@
+This branch implements the helical turn method for roll control, which uses a cross product.
+This was done to reduce the risk of a flip over due to the introduction of a new feature, "Arduino" roll offset.
+
+The following parameters are no longer needed or used in options.h.
+You will get a warning if they are defined, but otherwise there is no harm:
+
+YAWKP_AILERON
+AILERON_BOOST
+
+In place of YAWKP_AILERON, define MAXIMUM_LATERAL_ACCELERATION, which is the maximum desired
+lateral acceleration desired during a turn, divided by gravity.
+
+Typical value is 1.0 but anything between 0 and 4.0 is allowed.
+
+An "Arduino" roll offset is supported, which will require the following new parameters in options.h:
+
+ROLL_OFFSET_INPUT_CHANNEL
+ROLL_OFFSET_MAXIMUM  // in degrees, such as 5.0

@@ -1,0 +1,1086 @@
+[Header]
+MagicCookie={0b13fe8c-dfe0-40eb-8900-6712719559a7}
+Version=1.0
+[File000]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\config_tests.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File001]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\background.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File002]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\behavior.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File003]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\cameraCntrl.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File004]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\main.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File005]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\navigate.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File006]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\pitchCntrl.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File007]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\rollCntrl.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File008]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\servoMix.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File009]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\states.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File010]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\yawCntrl.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File011]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\libUDB.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File012]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\telemetry.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File013]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\servoPrepare.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File014]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\estWind.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File015]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\estYawDrift.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File016]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\gpsParseCommon.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File017]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\gpsParseSTD.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File018]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\gpsParseUBX.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File019]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\mathlibNAV.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File020]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\rmat.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File021]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\libDCM.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File022]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\servoOut.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File023]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\flightplan-waypoints.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File024]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\flightplan-logo.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File025]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\deadReckoning.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File026]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\osd.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File027]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\mp_osd.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File028]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\gpsParseMTEK.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File029]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\altitudeCntrl.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File030]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\MAVLink.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File031]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\mode_switch.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File032]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\24LC256.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File033]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\events.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File034]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\data_services.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File035]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\data_storage.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File036]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\nv_memory_table.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File037]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\parameter_table.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File038]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\airspeedCntrl.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File039]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\altitudeCntrlVariable.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File040]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\madd.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={DE18EB1A-B46B-486B-B96F-A811A635DFAC}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-as.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=--defsym=PSV_ERRATA=1 -g
+TraceCmdString=
+DebugOptions=
+[File041]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\mmul.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={DE18EB1A-B46B-486B-B96F-A811A635DFAC}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-as.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=--defsym=PSV_ERRATA=1 -g
+TraceCmdString=
+DebugOptions=
+[File042]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\mscl.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={DE18EB1A-B46B-486B-B96F-A811A635DFAC}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-as.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=--defsym=PSV_ERRATA=1 -g
+TraceCmdString=
+DebugOptions=
+[File043]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\msub.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={DE18EB1A-B46B-486B-B96F-A811A635DFAC}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-as.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=--defsym=PSV_ERRATA=1 -g
+TraceCmdString=
+DebugOptions=
+[File044]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\mtrp.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={DE18EB1A-B46B-486B-B96F-A811A635DFAC}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-as.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=--defsym=PSV_ERRATA=1 -g
+TraceCmdString=
+DebugOptions=
+[File045]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\vadd.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={DE18EB1A-B46B-486B-B96F-A811A635DFAC}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-as.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=--defsym=PSV_ERRATA=1 -g
+TraceCmdString=
+DebugOptions=
+[File046]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\vcon.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={DE18EB1A-B46B-486B-B96F-A811A635DFAC}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-as.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=--defsym=PSV_ERRATA=1 -g
+TraceCmdString=
+DebugOptions=
+[File047]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\vcopy.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={DE18EB1A-B46B-486B-B96F-A811A635DFAC}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-as.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=--defsym=PSV_ERRATA=1 -g
+TraceCmdString=
+DebugOptions=
+[File048]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\vcor.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={DE18EB1A-B46B-486B-B96F-A811A635DFAC}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-as.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=--defsym=PSV_ERRATA=1 -g
+TraceCmdString=
+DebugOptions=
+[File049]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\vdot.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={DE18EB1A-B46B-486B-B96F-A811A635DFAC}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-as.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=--defsym=PSV_ERRATA=1 -g
+TraceCmdString=
+DebugOptions=
+[File050]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\vmax.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={DE18EB1A-B46B-486B-B96F-A811A635DFAC}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-as.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=--defsym=PSV_ERRATA=1 -g
+TraceCmdString=
+DebugOptions=
+[File051]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\vmin.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={DE18EB1A-B46B-486B-B96F-A811A635DFAC}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-as.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=--defsym=PSV_ERRATA=1 -g
+TraceCmdString=
+DebugOptions=
+[File052]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\vmul.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={DE18EB1A-B46B-486B-B96F-A811A635DFAC}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-as.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=--defsym=PSV_ERRATA=1 -g
+TraceCmdString=
+DebugOptions=
+[File053]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\vneg.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={DE18EB1A-B46B-486B-B96F-A811A635DFAC}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-as.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=--defsym=PSV_ERRATA=1 -g
+TraceCmdString=
+DebugOptions=
+[File054]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\vpow.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={DE18EB1A-B46B-486B-B96F-A811A635DFAC}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-as.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=--defsym=PSV_ERRATA=1 -g
+TraceCmdString=
+DebugOptions=
+[File055]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\vscl.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={DE18EB1A-B46B-486B-B96F-A811A635DFAC}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-as.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=--defsym=PSV_ERRATA=1 -g
+TraceCmdString=
+DebugOptions=
+[File056]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\vsub.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={DE18EB1A-B46B-486B-B96F-A811A635DFAC}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-as.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=--defsym=PSV_ERRATA=1 -g
+TraceCmdString=
+DebugOptions=
+[File057]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\vzpad.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={DE18EB1A-B46B-486B-B96F-A811A635DFAC}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-as.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=--defsym=PSV_ERRATA=1 -g
+TraceCmdString=
+DebugOptions=
+[File058]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\euler_angles.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File059]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\mpu6000.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File060]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\spiUtils.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File061]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\analog2digital_udb5.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File062]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\traps_asm.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={DE18EB1A-B46B-486B-B96F-A811A635DFAC}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-as.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=--defsym=PSV_ERRATA=1 -g
+TraceCmdString=
+DebugOptions=
+[File063]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\analog2digital_udb4.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File064]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\mcu.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File065]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\estAltitude.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File066]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\eeprom_udb4.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File067]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\traps.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File068]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\barometer.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File069]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\I2C1.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File070]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\I2C2.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File071]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\magnetometer.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File072]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\radioIn.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File073]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\serialIO.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File074]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\read.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File075]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\uart.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File076]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\write.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File077]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\console.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File078]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\fbcl.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={DE18EB1A-B46B-486B-B96F-A811A635DFAC}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-as.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=--defsym=PSV_ERRATA=1 -g
+TraceCmdString=
+DebugOptions=
+[File079]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\gpsParseNMEA.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File080]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\build\udb5\cutDown.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DUDB5 -mlarge-code
+TraceCmdString=
+DebugOptions=
+[File081]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\MatrixPilot-udb5.cof
+Folder=Output
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={433C3D55-811D-409D-A6BF-159CF9355B42}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-ld.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-Map="$(BINDIR_)$(TARGETBASE).map" --report-mem -o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)" -legacy-libc
+TraceCmdString=
+DebugOptions=
+[File082]
+Location=D:\OLD_D\REPOSITORY_VERSIONS\CURRENT_VERSION\branches\MatrixPilot_Vector_Roll_balloon_launch\MatrixPilot\MatrixPilot-udb5.hex
+Folder=Output
+DeviceName=dsPIC33FJ256GP710A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={433C3D55-811D-409D-A6BF-159CF9355B42}
+LanguageToolLocation=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-ld.exe
+PPAD=$(BINDIR)||$(TMPDIR)|build/udb5||$(AINDIR)|..\libVectorMatrix||$(INCDIR)|..\MAVLink\include;.||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|config_tests.c|..\libUDB\background.c|behavior.c|cameraCntrl.c|main.c|navigate.c|pitchCntrl.c|rollCntrl.c|servoMix.c|states.c|yawCntrl.c|..\libUDB\libUDB.c|telemetry.c|servoPrepare.c|..\libDCM\estWind.c|..\libDCM\estYawDrift.c|..\libDCM\gpsParseCommon.c|..\libDCM\gpsParseSTD.c|..\libDCM\gpsParseUBX.c|..\libDCM\mathlibNAV.c|..\libDCM\rmat.c|..\libDCM\libDCM.c|..\libUDB\servoOut.c|flightplan-waypoints.c|flightplan-logo.c|..\libDCM\deadReckoning.c|..\libUDB\osd.c|mp_osd.c|..\libDCM\gpsParseMTEK.c|altitudeCntrl.c|MAVLink.c|mode_switch.c|..\libUDB\24LC256.c|..\libUDB\events.c|data_services.c|data_storage.c|nv_memory_table.c|parameter_table.c|airspeedCntrl.c|altitudeCntrlVariable.c|..\libVectorMatrix\madd.s|..\libVectorMatrix\mmul.s|..\libVectorMatrix\mscl.s|..\libVectorMatrix\msub.s|..\libVectorMatrix\mtrp.s|..\libVectorMatrix\vadd.s|..\libVectorMatrix\vcon.s|..\libVectorMatrix\vcopy.s|..\libVectorMatrix\vcor.s|..\libVectorMatrix\vdot.s|..\libVectorMatrix\vmax.s|..\libVectorMatrix\vmin.s|..\libVectorMatrix\vmul.s|..\libVectorMatrix\vneg.s|..\libVectorMatrix\vpow.s|..\libVectorMatrix\vscl.s|..\libVectorMatrix\vsub.s|..\libVectorMatrix\vzpad.s|euler_angles.c|..\libUDB\mpu6000.c|..\libUDB\spiUtils.c|..\libUDB\analog2digital_udb5.c|..\libUDB\traps_asm.s|..\libUDB\analog2digital_udb4.c|..\libUDB\mcu.c|..\libDCM\estAltitude.c|..\libUDB\eeprom_udb4.c|..\libUDB\traps.c|..\libUDB\barometer.c|..\libUDB\I2C1.c|..\libUDB\I2C2.c|..\libUDB\magnetometer.c|..\libUDB\radioIn.c|..\libUDB\serialIO.c|..\libUDB\read.c|..\libUDB\uart.c|..\libUDB\write.c|console.c|..\libDCM\fbcl.s|..\libDCM\gpsParseNMEA.c|cutDown.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-Map="$(BINDIR_)$(TARGETBASE).map" --report-mem -o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)" -legacy-libc
+TraceCmdString=
+DebugOptions=
+[TOOL_LOC_STAMPS]
+tool_loc{DE18EB1A-B46B-486B-B96F-A811A635DFAC}=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-as.exe
+tool_loc{069BD372-6CA0-40D4-BF2F-5DC806D05083}=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-gcc.exe
+tool_loc{433C3D55-811D-409D-A6BF-159CF9355B42}=D:\OLD_D\Microchip\mplabc30\v3.30\bin\pic30-ld.exe
